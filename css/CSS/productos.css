@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fdf0f5;
+  background-attachment: fixed;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-custom {
+  background-color: #d46a91 !important;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+  color: #ffffff !important;
+}
+
+.text-isa-primary {
+  color: #a3004c !important;
+}
+
+.titulo-seccion {
+  font-weight: bold;
+  color: #a3004c;
+  margin-bottom: 5px;
+}
+
+.linea-rosa {
+  width: 70px;
+  height: 4px;
+  background-color: #d46a91;
+  margin: 0 auto 25px auto;
+  border-radius: 2px;
+}
+
+.migas {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 15px;
+}
+
+#buscadorInput {
+  border: 2px solid #d46a91;
+  border-radius: 25px;
+  padding: 10px 20px;
+  background-color: #ffffff;
+}
+
+#buscadorInput:focus {
+  border-color: #a3004c;
+  box-shadow: 0 0 8px rgba(163, 0, 76, 0.2);
+}
+
+.card-producto {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(163, 0, 76, 0.08);
+  transition: transform 0.3s ease;
+  overflow: hidden;
+  height: 100%;
+  background-color: #ffffff;
+}
+
+.card-producto:hover {
+  transform: translateY(-5px);
+}
+
+.card-producto img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.footer-pastel-oscuro {
+  background-color: #c05880;
+  color: white;
+  padding: 30px 0;
+  margin-top: 50px;
+}

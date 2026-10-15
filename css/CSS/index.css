@@ -1,0 +1,152 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fdf0f5;
+  background-attachment: fixed;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+}
+
+.text-isa-primary {
+  color: #a3004c !important;
+}
+
+.navbar-custom {
+  background-color: #d46a91 !important;
+  box-shadow: 0 4px 10px rgba(163, 0, 76, 0.15);
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+  color: #ffffff !important;
+  font-weight: 500;
+}
+
+.navbar-custom .nav-link:hover,
+.navbar-custom .nav-link.active {
+  color: #ffe6f1 !important;
+  font-weight: bold;
+}
+
+.navbar-brand img {
+  border: 2px solid #ffffff;
+}
+
+.fondo-hero {
+  background: linear-gradient(135deg, #e287a8, #ff5ca8, #a3004c);
+  color: white;
+  padding: 80px 20px;
+  border-radius: 0 0 35px 35px;
+  box-shadow: 0 6px 15px rgba(163, 0, 76, 0.15);
+}
+
+.fondo-hero h1 {
+  font-weight: bold;
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+}
+
+.fondo-hero p {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 0 auto 30px auto;
+}
+
+.titulo-seccion {
+  font-weight: bold;
+  color: #a3004c;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.linea-rosa {
+  width: 70px;
+  height: 4px;
+  background-color: #d46a91;
+  margin: 0 auto 35px auto;
+  border-radius: 2px;
+}
+
+.card-isa {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(163, 0, 76, 0.08);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+  overflow: hidden;
+  height: 100%;
+  background-color: #ffffff;
+}
+
+.card-isa:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(163, 0, 76, 0.15);
+}
+
+.card-isa img {
+  height: 220px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.btn-isa {
+  background-color: #d46a91;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 22px;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.2s ease;
+}
+
+.btn-isa:hover {
+  background-color: #a3004c;
+  color: white;
+}
+
+.footer-pastel-oscuro {
+  background-color: #c05880;
+  color: white;
+  padding: 50px 0 25px 0;
+  margin-top: 60px;
+}
+
+.footer-pastel-oscuro h5,
+.footer-pastel-oscuro h6 {
+  font-weight: bold;
+  color: #ffe6f1;
+  margin-bottom: 15px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+}
+
+.footer-links a {
+  color: #fff0f5;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.2s;
+}
+
+.footer-links a:hover {
+  color: #ffe6f1;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .fondo-hero h1 {
+    font-size: 2rem;
+  }
+}
